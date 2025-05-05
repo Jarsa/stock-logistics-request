@@ -9,6 +9,7 @@ Stock Request Analytic
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
    !! source digest: sha256:f31e6dc33df21fba3d3247f0a5177cc1b1934ba036cac4e941d1d14a879b4906
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
@@ -38,10 +39,7 @@ accounts to stock requests.
 Usage
 =====
 
-To create stock moves with a specific analytic distribution, assign an
-analytic distribution to each stock request or set an analytic
-distribution on the stock request order as a default value for new stock
-requests on that order.
+Assign the analytic account to the stock request.
 
 Known issues / Roadmap
 ======================
@@ -78,8 +76,6 @@ Contributors
 -  `Tecnativa <https://www.tecnativa.com>`__:
 
    -  João Marques
-
--  Stefan Rijnhart <stefan@opener.amsterdam>
 
 Maintainers
 -----------
